@@ -22,6 +22,7 @@ while key == 0:
        print('O valor da soma Euclidiana e: {}'.format(calc))
 
        key = 0
+
    elif resp == 2:
        print('Questão 2 - Determine o ponto máximo da função: \n f(x) = (sen(pi * x) / x ')
        x = float(input('Digite a coordenada X'))
