@@ -34,11 +34,11 @@ while key == 0:
   elif resp == 2:
        
         print('\nQuestão 2 - Determine o ponto máximo da função: \n f(x) = (sen(pi * x) / x ')
-
+        pi = math.radians(180)
         x = np.arange(-5, 5, 0.1)
 
         # y = np.sin(x)
-        y = np.sin(np.pi * x ) / x
+        y = np.sin(pi * x ) / x
 
         #for debug max value for Y
         print(max(y))
