@@ -33,21 +33,19 @@ while key == 0:
 
   elif resp == 2:
        
-        print('\nQuestão 2 - Determine o ponto máximo da função: \n f(x) = (sen(pi * x) / x ')
+        print('Questão 2 - Determine o ponto máximo da função: \n f(x) = (sen(pi * x) / x ')
+        x = np.arange(-5, 5, 0.01) 
         pi = math.radians(180)
-        x = np.arange(-5, 5, 0.1)
 
-        # y = np.sin(x)
         y = np.sin(pi * x ) / x
-
-        #for debug max value for Y
-        print(max(y))
         
-        # print('{}'.format(y))
-
-        plt.plot(x, y, color="orange", linewidth=2.0)
+        # print('y value {}'.format(y))
+        # print('x value {}'.format(x))
+        
+        print('Max value for Y is {} '.format(max(y)))
+        
+        plt.plot(x, y, color="blue", linewidth=2.0)
         plt.title("grafico senoide da funcao Y: ")
-        #plt.savefig("teste.png")
         plt.show()
 
         key = 0
